@@ -1,0 +1,60 @@
+﻿  main.cpp
+e:\khpi\lab 2\lab10\lab11\main.cpp(51): warning C4018: '<': signed/unsigned mismatch
+e:\khpi\lab 2\lab10\lab11\main.cpp(86): warning C4018: '<': signed/unsigned mismatch
+e:\khpi\lab 2\lab10\lab11\main.cpp(88): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+e:\khpi\lab 2\lab10\lab11\main.cpp(97): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+e:\khpi\lab 2\lab10\lab11\main.cpp(155): warning C4018: '<': signed/unsigned mismatch
+e:\khpi\lab 2\lab10\lab11\main.cpp(166): warning C4018: '<': signed/unsigned mismatch
+e:\khpi\lab 2\lab10\lab11\tclass.h(57): warning C4018: '<': signed/unsigned mismatch
+  e:\khpi\lab 2\lab10\lab11\tclass.h(55): note: while compiling class template member function 'T TClass<T>::FindMin(int) const'
+          with
+          [
+              T=Student
+          ]
+  e:\khpi\lab 2\lab10\lab11\main.cpp(152): note: see reference to function template instantiation 'T TClass<T>::FindMin(int) const' being compiled
+          with
+          [
+              T=Student
+          ]
+  e:\khpi\lab 2\lab10\lab11\main.cpp(119): note: see reference to class template instantiation 'TClass<Student>' being compiled
+e:\khpi\lab 2\lab10\lab11\tclass.h(35): warning C4018: '<': signed/unsigned mismatch
+  e:\khpi\lab 2\lab10\lab11\tclass.h(27): note: while compiling class template member function 'T *TClass<T>::Sort(int,bool)'
+          with
+          [
+              T=Student
+          ]
+  e:\khpi\lab 2\lab10\lab11\main.cpp(148): note: see reference to function template instantiation 'T *TClass<T>::Sort(int,bool)' being compiled
+          with
+          [
+              T=Student
+          ]
+e:\khpi\lab 2\lab10\lab11\tclass.h(28): warning C4930: 'TClass<Student> object(T)': prototyped function not called (was a variable definition intended?)
+          with
+          [
+              T=Student
+          ]
+e:\khpi\lab 2\lab10\lab11\tclass.h(20): warning C4018: '<': signed/unsigned mismatch
+  e:\khpi\lab 2\lab10\lab11\tclass.h(19): note: while compiling class template member function 'int TClass<Student>::FindEl(T,int) const'
+          with
+          [
+              T=Student
+          ]
+  e:\khpi\lab 2\lab10\lab11\main.cpp(128): note: see reference to function template instantiation 'int TClass<Student>::FindEl(T,int) const' being compiled
+          with
+          [
+              T=Student
+          ]
+e:\khpi\lab 2\lab10\lab11\tclass.h(13): warning C4018: '<': signed/unsigned mismatch
+  e:\khpi\lab 2\lab10\lab11\tclass.h(12): note: while compiling class template member function 'void TClass<Student>::OutputArr(int) const'
+  e:\khpi\lab 2\lab10\lab11\main.cpp(123): note: see reference to function template instantiation 'void TClass<Student>::OutputArr(int) const' being compiled
+e:\khpi\lab 2\lab10\lab11\tclass.h(28): warning C4930: 'TClass<float> object(T)': prototyped function not called (was a variable definition intended?)
+          with
+          [
+              T=float
+          ]
+e:\khpi\lab 2\lab10\lab11\tclass.h(28): warning C4930: 'TClass<int> object(T)': prototyped function not called (was a variable definition intended?)
+          with
+          [
+              T=int
+          ]
+  lab11.vcxproj -> E:\KhPI\lab 2\lab10\Debug\lab11.exe

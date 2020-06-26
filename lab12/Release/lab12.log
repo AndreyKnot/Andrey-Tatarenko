@@ -1,0 +1,10 @@
+﻿  class1.cpp
+  class2.cpp
+  test.cpp
+e:\khpi\lab 2\lab10\lab12\test.cpp(59): warning C4101: 'value': unreferenced local variable
+e:\khpi\lab 2\lab10\lab12\test.cpp(93): warning C4101: 'value': unreferenced local variable
+e:\khpi\lab 2\lab10\lab12\test.cpp(128): warning C4018: '<': signed/unsigned mismatch
+  Generating code
+  All 536 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  lab12.vcxproj -> E:\KhPI\lab 2\lab10\Release\lab12.exe

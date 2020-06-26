@@ -1,0 +1,16 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (lab5.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  audience.cpp
+  basic_class.cpp
+  class_list.cpp
+e:\khpi\lab 2\lab01\lab5\class_list.cpp(16): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+e:\khpi\lab 2\lab01\lab5\class_list.cpp(134): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+e:\khpi\lab 2\lab01\lab5\class_list.cpp(381): warning C4566: character represented by universal-character-name '\u00C0' cannot be represented in the current code page (1251)
+e:\khpi\lab 2\lab01\lab5\class_list.cpp(381): warning C4566: character represented by universal-character-name '\u00DF' cannot be represented in the current code page (1251)
+e:\khpi\lab 2\lab01\lab5\class_list.cpp(381): warning C4566: character represented by universal-character-name '\u00E0' cannot be represented in the current code page (1251)
+e:\khpi\lab 2\lab01\lab5\class_list.cpp(381): warning C4566: character represented by universal-character-name '\u00FF' cannot be represented in the current code page (1251)
+  faculty.cpp
+  main.cpp
+  Generating Code...
+e:\khpi\lab 2\lab01\lab5\class_list.cpp(194): warning C4715: 'Arr::select': not all control paths return a value
+  menu.cpp
+  lab5.vcxproj -> E:\KhPI\lab 2\lab01\x64\Debug\lab05.exe

@@ -1,0 +1,5 @@
+18 1 6 Mark 1 15 15 KIT
+18 2 8 Den 0 0 15 KIT
+19 3 9 August 0 0 17 KIT
+17 4 7 Adolf 1 25 87 PIT
+20 5 4 Dima 1 30 87 PIT

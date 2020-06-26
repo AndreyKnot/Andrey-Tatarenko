@@ -1,0 +1,10 @@
+﻿  main.cpp
+e:\khpi\lab 2\lab10\lab14\main.cpp(395): warning C4018: '<': signed/unsigned mismatch
+e:\khpi\lab 2\lab10\lab14\main.cpp(433): warning C4018: '<': signed/unsigned mismatch
+e:\khpi\lab 2\lab10\lab14\main.cpp(759): warning C4018: '<': signed/unsigned mismatch
+e:\khpi\lab 2\lab10\lab14\main.cpp(797): warning C4018: '<': signed/unsigned mismatch
+e:\khpi\lab 2\lab10\lab14\main.cpp(1074): warning C4018: '<': signed/unsigned mismatch
+e:\khpi\lab 2\lab10\lab14\main.cpp(1112): warning C4018: '<': signed/unsigned mismatch
+e:\khpi\lab 2\lab10\lab14\main.cpp(1431): warning C4018: '<': signed/unsigned mismatch
+e:\khpi\lab 2\lab10\lab14\main.cpp(1469): warning C4018: '<': signed/unsigned mismatch
+  lab14.vcxproj -> E:\KhPI\lab 2\lab10\Debug\lab14.exe

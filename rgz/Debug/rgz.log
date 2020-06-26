@@ -1,0 +1,12 @@
+﻿  Course.cpp
+  FuncTester.cpp
+  Functor.cpp
+  list.cpp
+  main.cpp
+e:\khpi\lab 2\tatarenko-andrey\rgz\main.cpp(20): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  Menu.cpp
+  Student.cpp
+  Surnames.cpp
+  Generating Code...
+e:\khpi\lab 2\tatarenko-andrey\rgz\functor.cpp(55): warning C4715: 'Functor::operator()': not all control paths return a value
+  rgz.vcxproj -> E:\KhPI\lab 2\Tatarenko-Andrey\Debug\rgz.exe

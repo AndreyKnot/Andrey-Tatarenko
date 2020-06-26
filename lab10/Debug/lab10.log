@@ -1,0 +1,28 @@
+﻿  main.cpp
+e:\khpi\lab 2\lab10\lab10\main.cpp(35): warning C4305: 'initializing': truncation from 'double' to 'float'
+e:\khpi\lab 2\lab10\lab10\main.cpp(85): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+e:\khpi\lab 2\lab10\lab10\myclass.h(43): warning C4018: '<': signed/unsigned mismatch
+  e:\khpi\lab 2\lab10\lab10\main.cpp(47): note: see reference to function template instantiation 'void Class::OutputArr<int*>(T,int) const' being compiled
+          with
+          [
+              T=int *
+          ]
+e:\khpi\lab 2\lab10\lab10\myclass.h(79): warning C4018: '<': signed/unsigned mismatch
+  e:\khpi\lab 2\lab10\lab10\main.cpp(49): note: see reference to function template instantiation 'void Class::FindEl<int>(T *,int,T) const' being compiled
+          with
+          [
+              T=int
+          ]
+e:\khpi\lab 2\lab10\lab10\myclass.h(105): warning C4018: '<': signed/unsigned mismatch
+  e:\khpi\lab 2\lab10\lab10\main.cpp(53): note: see reference to function template instantiation 'T *Class::Sort<int>(T *,int,bool)' being compiled
+          with
+          [
+              T=int
+          ]
+e:\khpi\lab 2\lab10\lab10\myclass.h(132): warning C4018: '<': signed/unsigned mismatch
+  e:\khpi\lab 2\lab10\lab10\main.cpp(61): note: see reference to function template instantiation 'T Class::FindMin<int>(T *,int) const' being compiled
+          with
+          [
+              T=int
+          ]
+  lab10.vcxproj -> E:\KhPI\lab 2\lab10\Debug\lab10.exe

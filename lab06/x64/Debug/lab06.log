@@ -1,0 +1,11 @@
+﻿  menu.cpp
+  surname_list.cpp
+e:\khpi\lab 2\lab01\lab06\surname_list.cpp(16): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+e:\khpi\lab 2\lab01\lab06\surname_list.cpp(134): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+e:\khpi\lab 2\lab01\lab06\surname_list.cpp(385): warning C4566: character represented by universal-character-name '\u00C0' cannot be represented in the current code page (1251)
+e:\khpi\lab 2\lab01\lab06\surname_list.cpp(385): warning C4566: character represented by universal-character-name '\u00DF' cannot be represented in the current code page (1251)
+e:\khpi\lab 2\lab01\lab06\surname_list.cpp(385): warning C4566: character represented by universal-character-name '\u00E0' cannot be represented in the current code page (1251)
+e:\khpi\lab 2\lab01\lab06\surname_list.cpp(385): warning C4566: character represented by universal-character-name '\u00FF' cannot be represented in the current code page (1251)
+  Generating Code...
+e:\khpi\lab 2\lab01\lab06\surname_list.cpp(194): warning C4715: 'Arr_Sur::select': not all control paths return a value
+  lab06.vcxproj -> E:\KhPI\lab 2\lab01\x64\Debug\lab06.exe

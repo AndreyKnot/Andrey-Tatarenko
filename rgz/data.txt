@@ -1,0 +1,5 @@
+18 6 6 Mark 1 15
+18 7 8 Den 0 0 1
+19 8 9 August 0 0 2
+17 9 7 Adolf 1 25 Petrov
+20 10 4 Dima 1 30

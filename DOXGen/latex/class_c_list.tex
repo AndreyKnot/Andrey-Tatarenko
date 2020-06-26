@@ -1,0 +1,246 @@
+\hypertarget{class_c_list}{}\doxysection{C\+List Class Reference}
+\label{class_c_list}\index{CList@{CList}}
+
+
+{\ttfamily \#include $<$list.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_c_list_a07d28c55cc2c38054e2b17c49d6f6436}{Print\+List}} () const noexcept
+\item 
+int \mbox{\hyperlink{class_c_list_aff9e2e4549c6daaf965c116d34249ed2}{Task}} () const
+\item 
+int \mbox{\hyperlink{class_c_list_ab198b3dd9f5fde7646be0591680fdb4e}{Add\+Student}} (int)
+\item 
+int \mbox{\hyperlink{class_c_list_a1c1dd84e7bf96206ef7eb728aaf4b533}{Delete\+Student}} (int)
+\item 
+void \mbox{\hyperlink{class_c_list_a27f48183195e2592e581848c4a88432e}{Sort}} (\mbox{\hyperlink{class_functor}{Functor}} \&) noexcept
+\item 
+int \mbox{\hyperlink{class_c_list_a8abd36536d836f7917e2ce06356953e2}{Save\+File}} (string) const
+\item 
+int \mbox{\hyperlink{class_c_list_a249d4b04d59ca3f899e742320441cb3d}{Read\+File}} (string)
+\item 
+int \mbox{\hyperlink{class_c_list_ab44aa1bdac5a8c13744bd3c1b5fd1fee}{get\+\_\+numb}} (int) const
+\item 
+\mbox{\hyperlink{class_c_list_ae6434f79bc2d54fbd3617214a313af97}{C\+List}} ()
+\item 
+\mbox{\hyperlink{class_c_list_a34a40e8ab96400a4ec186b29de56da5a}{$\sim$\+C\+List}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_c_list_add9e814311df2c654c7e02c0beb26a81}\label{class_c_list_add9e814311df2c654c7e02c0beb26a81}} 
+vector$<$ unique\+\_\+ptr$<$ \mbox{\hyperlink{class_student}{Student}} $>$ $>$ {\bfseries Student\+List}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Підключення файлу \mbox{\hyperlink{_surnames_8h}{Surnames.\+h}} Підключення файлу \mbox{\hyperlink{_course_8h}{Course.\+h}} Підключення файлу \mbox{\hyperlink{_functor_8h}{Functor.\+h}} Оголошення класу-\/контролера 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_c_list_ae6434f79bc2d54fbd3617214a313af97}\label{class_c_list_ae6434f79bc2d54fbd3617214a313af97}} 
+\index{CList@{CList}!CList@{CList}}
+\index{CList@{CList}!CList@{CList}}
+\doxysubsubsection{\texorpdfstring{CList()}{CList()}}
+{\footnotesize\ttfamily C\+List\+::\+C\+List (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Оголошення методу отримання індекса за номером
+
+Реалізація конструктора за замовчуванням Масив, який заповнює вектор елементами\mbox{\Hypertarget{class_c_list_a34a40e8ab96400a4ec186b29de56da5a}\label{class_c_list_a34a40e8ab96400a4ec186b29de56da5a}} 
+\index{CList@{CList}!````~CList@{$\sim$CList}}
+\index{````~CList@{$\sim$CList}!CList@{CList}}
+\doxysubsubsection{\texorpdfstring{$\sim$CList()}{~CList()}}
+{\footnotesize\ttfamily C\+List\+::$\sim$\+C\+List (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Оголошення конструктора за замовчуванням
+
+Підключення файлу \mbox{\hyperlink{list_8h}{list.\+h}} Реалізація деструктора Очищення пам\textquotesingle{}яті масива програм
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_c_list_ab198b3dd9f5fde7646be0591680fdb4e}\label{class_c_list_ab198b3dd9f5fde7646be0591680fdb4e}} 
+\index{CList@{CList}!AddStudent@{AddStudent}}
+\index{AddStudent@{AddStudent}!CList@{CList}}
+\doxysubsubsection{\texorpdfstring{AddStudent()}{AddStudent()}}
+{\footnotesize\ttfamily int C\+List\+::\+Add\+Student (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})}
+
+Оголошення методу виконання індивідуального завднання
+
+Реалізація метода додавання нової програми Створення елемента класу \mbox{\hyperlink{class_student}{Student}}
+
+Вставка елемента у масив
+
+Створення елемента класу \mbox{\hyperlink{class_course}{Course}}
+
+Вставка елемента у масив
+
+Створення елемента класу \mbox{\hyperlink{class_surnames}{Surnames}}
+
+Вставка елемента у масив
+
+Повернення розміру списку\mbox{\Hypertarget{class_c_list_a1c1dd84e7bf96206ef7eb728aaf4b533}\label{class_c_list_a1c1dd84e7bf96206ef7eb728aaf4b533}} 
+\index{CList@{CList}!DeleteStudent@{DeleteStudent}}
+\index{DeleteStudent@{DeleteStudent}!CList@{CList}}
+\doxysubsubsection{\texorpdfstring{DeleteStudent()}{DeleteStudent()}}
+{\footnotesize\ttfamily int C\+List\+::\+Delete\+Student (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})}
+
+Оголошення методу додавання нового елемента у список
+
+Реалізація метода видалення програми Перевірка розміру списку
+
+Створення ітератора
+
+Цикл, який обробляє усі елементи колекції
+
+Якщо програма має потрібний індекс
+
+Збільшення змінної номеру елементу
+
+Змінення зміної знаходження елемента
+
+Зупинка роботи циклу
+
+Збільшення змінної номеру елементу
+
+Якщо елемент з потрібним індексом був найден
+
+Встановлення покажчика на початок списку
+
+Переміщення покажчика на потрібний елемент
+
+Видалення потрібного елементу
+
+Повернення змінної розміру списку\mbox{\Hypertarget{class_c_list_ab44aa1bdac5a8c13744bd3c1b5fd1fee}\label{class_c_list_ab44aa1bdac5a8c13744bd3c1b5fd1fee}} 
+\index{CList@{CList}!get\_numb@{get\_numb}}
+\index{get\_numb@{get\_numb}!CList@{CList}}
+\doxysubsubsection{\texorpdfstring{get\_numb()}{get\_numb()}}
+{\footnotesize\ttfamily int C\+List\+::get\+\_\+numb (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption}) const}
+
+Оголошення методу виводу списку у консоль
+
+Реалізація метода отримання номеру елементів Повернення номеру\mbox{\Hypertarget{class_c_list_a07d28c55cc2c38054e2b17c49d6f6436}\label{class_c_list_a07d28c55cc2c38054e2b17c49d6f6436}} 
+\index{CList@{CList}!PrintList@{PrintList}}
+\index{PrintList@{PrintList}!CList@{CList}}
+\doxysubsubsection{\texorpdfstring{PrintList()}{PrintList()}}
+{\footnotesize\ttfamily void C\+List\+::\+Print\+List (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [noexcept]}}
+
+Контейнер для зберігання елементів
+
+Реалізація методу виведення списку на екран Перевірка розміру списка
+
+Виведення назв полів класів
+
+Цикл, який виводить список елементів
+
+Виведення номеру та полів елемента
+
+Збільшення зміної нумерування\mbox{\Hypertarget{class_c_list_a249d4b04d59ca3f899e742320441cb3d}\label{class_c_list_a249d4b04d59ca3f899e742320441cb3d}} 
+\index{CList@{CList}!ReadFile@{ReadFile}}
+\index{ReadFile@{ReadFile}!CList@{CList}}
+\doxysubsubsection{\texorpdfstring{ReadFile()}{ReadFile()}}
+{\footnotesize\ttfamily int C\+List\+::\+Read\+File (\begin{DoxyParamCaption}\item[{string}]{filename }\end{DoxyParamCaption})}
+
+Оголошення методу виведення даних у файл
+
+Реалізація метода читання даних з файлу Регулярний вираз для класу \mbox{\hyperlink{class_student}{Student}}
+
+Регулярний вираз для класу \mbox{\hyperlink{class_course}{Course}}
+
+Регулярний вираз для класу \mbox{\hyperlink{class_surnames}{Surnames}}
+
+Регулярний вираз для символів, які треба замінити
+
+Відкриття файлу
+
+Перевірка чи відкритий файл
+
+Цикл, який працює до кінця файлу
+
+Отримання строки з файлу
+
+Видалення символів які не підходять
+
+Перевірка на відповідність до класу \mbox{\hyperlink{class_student}{Student}}
+
+Створення змінної класу \mbox{\hyperlink{class_student}{Student}}
+
+Вставка елемента у масив
+
+Збільшення змінної кількості нових елементів
+
+Перевірка на відповідність до класу \mbox{\hyperlink{class_student}{Student}}
+
+Створення змінної класу \mbox{\hyperlink{class_course}{Course}}
+
+Вставка елемента у масив
+
+Збільшення змінної кількості нових елементів
+
+Перевірка на відповідність до класу \mbox{\hyperlink{class_student}{Student}}
+
+Створення змінної класу \mbox{\hyperlink{class_surnames}{Surnames}}
+
+Вставка елемента у масив
+
+Збільшення змінної кількості нових елементів
+
+Закриття файлу
+
+Повернення змінної кількості нових елементів\mbox{\Hypertarget{class_c_list_a8abd36536d836f7917e2ce06356953e2}\label{class_c_list_a8abd36536d836f7917e2ce06356953e2}} 
+\index{CList@{CList}!SaveFile@{SaveFile}}
+\index{SaveFile@{SaveFile}!CList@{CList}}
+\doxysubsubsection{\texorpdfstring{SaveFile()}{SaveFile()}}
+{\footnotesize\ttfamily int C\+List\+::\+Save\+File (\begin{DoxyParamCaption}\item[{string}]{filename }\end{DoxyParamCaption}) const}
+
+Оголошення методу сортування даних
+
+Реалізація метода запису даних у файл Перевірка розміру масиву
+
+Відкриття файлу
+
+Перевірка чи відкритий файл
+
+Виведення назв полів
+
+Цикл, який обробляє усі елементи масиву
+
+Виведення нумерування елементів
+
+Виведення полів елементів
+
+Закриття файлу
+
+Повернення кількості елементів, які були збережені у файл\mbox{\Hypertarget{class_c_list_a27f48183195e2592e581848c4a88432e}\label{class_c_list_a27f48183195e2592e581848c4a88432e}} 
+\index{CList@{CList}!Sort@{Sort}}
+\index{Sort@{Sort}!CList@{CList}}
+\doxysubsubsection{\texorpdfstring{Sort()}{Sort()}}
+{\footnotesize\ttfamily void C\+List\+::\+Sort (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_functor}{Functor}} \&}]{choise }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [noexcept]}}
+
+Оголошення методу видалення програми зі списку
+
+Реалізація метода сортування списку Сортування списку\mbox{\Hypertarget{class_c_list_aff9e2e4549c6daaf965c116d34249ed2}\label{class_c_list_aff9e2e4549c6daaf965c116d34249ed2}} 
+\index{CList@{CList}!Task@{Task}}
+\index{Task@{Task}!CList@{CList}}
+\doxysubsubsection{\texorpdfstring{Task()}{Task()}}
+{\footnotesize\ttfamily int C\+List\+::\+Task (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Оголошення методу виводу списку у консоль
+
+Реалізація метода виконання індивідуального завдання Оголошення змінної кількості відповідних елементів
+
+Цикл який обходить усі елементи масиву
+
+Перевірка полів елементів
+
+Виведення елемента на екран
+
+Збільшення змінної нумерування масиву
+
+Якщо елементів немає
+
+Повернення кількості відповідних елементів
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+E\+:/\+Kh\+P\+I/lab 2/\+Tatarenko-\/\+Andrey/rgz/\mbox{\hyperlink{list_8h}{list.\+h}}\item 
+E\+:/\+Kh\+P\+I/lab 2/\+Tatarenko-\/\+Andrey/rgz/\mbox{\hyperlink{list_8cpp}{list.\+cpp}}\end{DoxyCompactItemize}

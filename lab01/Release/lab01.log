@@ -1,0 +1,7 @@
+﻿  main.cpp
+  menu.cpp
+  rel1.cpp
+  rel2.cpp
+  test.cpp
+main.obj : error LNK2005: _main already defined in main.obj
+E:\KhPI\lab 2\lab01\Release\lab01.exe : fatal error LNK1169: one or more multiply defined symbols found
